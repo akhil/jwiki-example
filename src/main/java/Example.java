@@ -6,7 +6,7 @@ public class Example {
     public static void main(String[] s) {
         Wiki wiki = new Wiki.Builder()
                 .withApiEndpoint(
-                        HttpUrl.parse("https://hinduismpedia.org/api.php")
+                        HttpUrl.parse("https://test.hinduismpedia.org/api.php")
                 )
                 .withLogin("", "")
                 .build();
